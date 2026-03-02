@@ -16,7 +16,7 @@
 // e) Exiba as quatro variáveis no console.
 
 // → Seu código aqui:
-var meuNome = " Kevin";
+/*var meuNome = " Kevin";
 
 var naoUsarVar = "Forma antiga"
 
@@ -27,7 +27,7 @@ const ANO_NASCIMENTO = "23 de outubro de 2007";
 console.log(`Meu nome é :${meuNome}\nMinha idade é ${minhaIdade} anos \nEu nasci em ${ANO_NASCIMENTO}
 E eu nao uso var pq é uma ${naoUsarVar}`)
 
-console.log("_____________________________");
+console.log("_____________________________");*/
 
 
 // ------------------------------------------------------------
@@ -41,7 +41,7 @@ console.log("_____________________________");
 
 // → Seu código aqui:
 
-let cidade = "Jaraguá do Sul";
+/*let cidade = "Jaraguá do Sul";
 
 let pais = "Moro no brasil";
 
@@ -50,7 +50,7 @@ let fraseMoradia = `Eu moro em ${cidade}, no ${pais}.`;
 console.log (fraseMoradia);
 console.log (typeof fraseMoradia);
 
-console.log("_______________________________");
+console.log("_______________________________");*/
 
 
 // ------------------------------------------------------------
@@ -61,7 +61,7 @@ console.log("_______________________________");
 // c) Exiba as duas variáveis e seus tipos (typeof).
 
 // → Seu código aqui:
-let maiorDeIdade = true
+/*let maiorDeIdade = true
 let temCNH = false
 
 console.log (maiorDeIdade);
@@ -70,7 +70,7 @@ console.log (typeof maiorDeIdade);
 console.log (typeof temCNH);
 
 console.log("_______________________________");
-
+*/
 
 // ------------------------------------------------------------
 // EXERCÍCIO 4 – Undefined e Null
@@ -81,7 +81,7 @@ console.log("_______________________________");
 // d) Explique (em um comentário) por que typeof null retorna "object".
 
 // → Seu código aqui:
-let apelido;
+/*let apelido;
 let enderecoAtual = null
 
 console.log (apelido);
@@ -136,4 +136,4 @@ e estou estudando JavaScript: ${e}`;
 
 console.log (m);
 console.log (typeof m);
-console.log("_______________________________");
+console.log("_______________________________");*/
