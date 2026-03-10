@@ -71,7 +71,7 @@ console.log("_______________________________");
 
 // → Seu código aqui:
 aluno.responsaveis = {
-    nome: "Angela Dos Santos",
+nome: "Angela Dos Santos",
     parentesco: "Mãe"
 }
 console.log(`Os responsaveis são: ${aluno.responsaveis.nome}`)
