@@ -200,22 +200,22 @@ console.log("_______________________________");
 // h) Exiba com console.log() o nome do 1º viajante.
 
 // → Seu código aqui:
-const pessoa1 = {
-    nome: lerTeclado.question("Me informe seu nome: "),
-    cidade: lerTeclado.question("Me diga qual sua cidade favorita: ")
-}
-const pessoa2 = {
-    nome: lerTeclado.question("Me informe seu nome: "),
-    cidade: lerTeclado.question("Me diga qual sua cidade favorita: ")
-}
-const pessoa3 = {
-    nome: lerTeclado.question("Me informe seu nome: "),
-    cidade: lerTeclado.question("Me diga qual sua cidade favorita: ")
-}
-console.table(pessoa1)
-const viajantes = [pessoa1, pessoa2, pessoa3]
-console.table(viajantes)
-console.info(`Quantidade de viajantes: ${viajantes.length}`)
-console.log(`A cidade favorita do(a) ${pessoa2.nome} é ${pessoa2.cidade}`)
-console.log(`Oie ${pessoa1.nome}`)
+//const pessoa1 = {
+//    nome: lerTeclado.question("Me informe seu nome: "),
+//    cidade: lerTeclado.question("Me diga qual sua cidade favorita: ")
+//}
+//const pessoa2 = {
+//    nome: lerTeclado.question("Me informe seu nome: "),
+//    cidade: lerTeclado.question("Me diga qual sua cidade favorita: ")
+//}
+//const pessoa3 = {
+//    nome: lerTeclado.question("Me informe seu nome: "),
+//    cidade: lerTeclado.question("Me diga qual sua cidade favorita: ")
+//}
+//console.table(pessoa1)
+//const viajantes = [pessoa1, pessoa2, pessoa3]
+//console.table(viajantes)
+//console.info(`Quantidade de viajantes: ${viajantes.length}`)
+//console.log(`A cidade favorita do(a) ${pessoa2.nome} é ${pessoa2.cidade}`)
+//console.log(`Oie ${pessoa1.nome}`)
 console.log("_______________________________");
