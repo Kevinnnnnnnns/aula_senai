@@ -439,72 +439,72 @@ console.log("_______________________________");
 // - Título e autor de CADA livro do acervo (um livro por linha)
 //
 // → Seu código aqui:
-const nomeBiblioteca = lerTeclado.question("Nome da biblioteca: ");
-const anoDeFundacao = lerTeclado.questionInt("Ano de fundacao: ");
-const capacidadeLivros = lerTeclado.questionInt("Capacidade maxima de livros: ");
-const bibliotecaAberta = lerTeclado.keyInYN("A biblioteca esta aberta? ");
+// const nomeBiblioteca = lerTeclado.question("Nome da biblioteca: ");
+// const anoDeFundacao = lerTeclado.questionInt("Ano de fundacao: ");
+// const capacidadeLivros = lerTeclado.questionInt("Capacidade maxima de livros: ");
+// const bibliotecaAberta = lerTeclado.keyInYN("A biblioteca esta aberta? ");
 
-console.log(`A biblioteca '${nomeBiblioteca}' foi fundada em ${anoDeFundacao}, possui capacidade para ${capacidadeLivros} livros e esta aberta: ${bibliotecaAberta}.`);
-const acervo = [
-    {
-        titulo: lerTeclado.question("Titulo do livro 1: "),
-        autor: lerTeclado.question("Autor do livro 1: "),
-        ano: lerTeclado.questionInt("Ano do livro 1: "),
-        paginas: lerTeclado.questionInt("Paginas do livro 1: "),
-        disponivel: lerTeclado.keyInYN("Livro 1 disponivel? ")
-    },
+// console.log(`A biblioteca '${nomeBiblioteca}' foi fundada em ${anoDeFundacao}, possui capacidade para ${capacidadeLivros} livros e esta aberta: ${bibliotecaAberta}.`);
+// const acervo = [
+//     {
+//         titulo: lerTeclado.question("Titulo do livro 1: "),
+//         autor: lerTeclado.question("Autor do livro 1: "),
+//         ano: lerTeclado.questionInt("Ano do livro 1: "),
+//         paginas: lerTeclado.questionInt("Paginas do livro 1: "),
+//         disponivel: lerTeclado.keyInYN("Livro 1 disponivel? ")
+//     },
 
-    {
-        titulo: lerTeclado.question("Titulo do livro 2: "),
-        autor: lerTeclado.question("Autor do livro 2: "),
-        ano: lerTeclado.questionInt("Ano do livro 2: "),
-        paginas: lerTeclado.questionInt("Paginas do livro 2: "),
-        disponivel: lerTeclado.keyInYN("Livro 2 disponivel? ")
-    },
+//     {
+//         titulo: lerTeclado.question("Titulo do livro 2: "),
+//         autor: lerTeclado.question("Autor do livro 2: "),
+//         ano: lerTeclado.questionInt("Ano do livro 2: "),
+//         paginas: lerTeclado.questionInt("Paginas do livro 2: "),
+//         disponivel: lerTeclado.keyInYN("Livro 2 disponivel? ")
+//     },
 
-    {
-        titulo: lerTeclado.question("Titulo do livro 3: "),
-        autor: lerTeclado.question("Autor do livro 3: "),
-        ano: lerTeclado.questionInt("Ano do livro 3: "),
-        paginas: lerTeclado.questionInt("Paginas do livro 3: "),
-        disponivel: lerTeclado.keyInYN("Livro 3 disponivel? ")
-    }
-];
-console.log(`Titulo do 1º livro: ${acervo[0].titulo}`);
-console.log(`Autor do 2º livro: ${acervo[1].autor}`);
-console.log(`Paginas do 3º livro: ${acervo[2].paginas}`);
-console.log(`Total de livros no acervo: ${acervo.length}`);
-acervo[0].disponivel = false;
+//     {
+//         titulo: lerTeclado.question("Titulo do livro 3: "),
+//         autor: lerTeclado.question("Autor do livro 3: "),
+//         ano: lerTeclado.questionInt("Ano do livro 3: "),
+//         paginas: lerTeclado.questionInt("Paginas do livro 3: "),
+//         disponivel: lerTeclado.keyInYN("Livro 3 disponivel? ")
+//     }
+// ];
+// console.log(`Titulo do 1º livro: ${acervo[0].titulo}`);
+// console.log(`Autor do 2º livro: ${acervo[1].autor}`);
+// console.log(`Paginas do 3º livro: ${acervo[2].paginas}`);
+// console.log(`Total de livros no acervo: ${acervo.length}`);
+// acervo[0].disponivel = false;
 
-acervo[2].titulo = "Novo Titulo Alterado";
+// acervo[2].titulo = "Novo Titulo Alterado";
 
-acervo.push({
-    titulo: "JavaScript Essencial",
-    autor: "Autor Desconhecido",
-    ano: 2023,
-    paginas: 350,
-    disponivel: true
-});
-let secoes = ["Ficção", "Ciências", "História", "Infantil"];
+// acervo.push({
+//     titulo: "JavaScript Essencial",
+//     autor: "Autor Desconhecido",
+//     ano: 2023,
+//     paginas: 350,
+//     disponivel: true
+// });
+// let secoes = ["Ficção", "Ciências", "História", "Infantil"];
 
-console.log(`Primeira secao: ${secoes[0]}`);
-console.log(`Ultima secao: ${secoes[secoes.length - 1]}`);
+// console.log(`Primeira secao: ${secoes[0]}`);
+// console.log(`Ultima secao: ${secoes[secoes.length - 1]}`);
 
-secoes.push("Tecnologia");
+// secoes.push("Tecnologia");
 
-secoes.shift();
+// secoes.shift();
 
-console.log("Secoes atuais:", secoes);
+// console.log("Secoes atuais:", secoes);
 
-console.log(`\nRelatorio da biblioteca '${nomeBiblioteca}' fundada em ${anoDeFundacao}.`);
-console.log(`Quantidade de livros no acervo: ${acervo.length}`);
-console.log(`Quantidade de secoes: ${secoes.length}`);
+// console.log(`\nRelatorio da biblioteca '${nomeBiblioteca}' fundada em ${anoDeFundacao}.`);
+// console.log(`Quantidade de livros no acervo: ${acervo.length}`);
+// console.log(`Quantidade de secoes: ${secoes.length}`);
 
-console.log("\nLista de livros:");
+// console.log("\nLista de livros:");
 
-acervo.forEach(livro => {
-    console.log(`${livro.titulo} - ${livro.autor}`);
-});
+// acervo.forEach(livro => {
+//     console.log(`${livro.titulo} - ${livro.autor}`);
+// });
 console.log("_______________________________");
 
 
@@ -549,4 +549,4 @@ console.log("_______________________________");
 // - Nome, preço e se é vegano de CADA prato (um prato por linha)
 //
 // → Seu código aqui:
-// console.log("_______________________________");
+console.log("_______________________________");
