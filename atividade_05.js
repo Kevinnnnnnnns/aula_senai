@@ -231,37 +231,37 @@ console.log("_______________________________");
 // c) Compare e exiba no console, qual aluno obteve a primeira maior nota, a segunda e a terceira.
 //    Exemplo: `Aluno com primeira maior nota: ${nota1aluno1 > nota1aluno2 ? nomeAluno1 : nomeAluno2}`
 // → Seu código aqui:
-
-    const alunos = [
-      {
-        nome:  lerTeclado.question("Nome do aluno 1: "),
-        nota1: lerTeclado.questionFloat("Nota 1 do aluno 1: "),
-        nota2: lerTeclado.questionFloat("Nota 2 do aluno 1: "),
-        nota3: lerTeclado.questionFloat("Nota 3 do aluno 1: ")
-      },
-      {
-        nome:  lerTeclado.question("Nome do aluno 2: "),
-        nota1: lerTeclado.questionFloat("Nota 1 do aluno 2: "),
-        nota2: lerTeclado.questionFloat("Nota 2 do aluno 2: "),
-        nota3: lerTeclado.questionFloat("Nota 3 do aluno 2: ")
-      }
-    ];
-    const nomeAluno1  = alunos[0].nome;
-    const nomeAluno2  = alunos[1].nome;
-    const nota1aluno1 = alunos[0].nota1;
-    const nota2aluno1 = alunos[0].nota2;
-    const nota3aluno1 = alunos[0].nota3;
-    const nota1aluno2 = alunos[1].nota1;
-    const nota2aluno2 = alunos[1].nota2;
-    const nota3aluno2 = alunos[1].nota3;
-    const mediaAluno1 = (nota1aluno1 + nota2aluno1 + nota3aluno1) / 3;
-    const mediaAluno2 = (nota1aluno2 + nota2aluno2 + nota3aluno2) / 3;
-    const mediasIguais = mediaAluno1 === mediaAluno2;
-    console.log(`Media de ${nomeAluno1}: ${mediaAluno1.toFixed(2)}`);
-    console.log(`Media de ${nomeAluno2}: ${mediaAluno2.toFixed(2)}`);
-    console.log(`Aluno com maior media: ${mediasIguais ? "Mesma media" : mediaAluno1 > mediaAluno2 ? nomeAluno1 : nomeAluno2}`);
-    console.log(`Aluno com primeira maior nota:  ${nota1aluno1 > nota1aluno2 ? nomeAluno1 : nota1aluno1 === nota1aluno2 ? "Empate" : nomeAluno2}`);
-    console.log(`Aluno com segunda maior nota:   ${nota2aluno1 > nota2aluno2 ? nomeAluno1 : nota2aluno1 === nota2aluno2 ? "Empate" : nomeAluno2}`);
-    console.log(`Aluno com terceira maior nota:  ${nota3aluno1 > nota3aluno2 ? nomeAluno1 : nota3aluno1 === nota3aluno2 ? "Empate" : nomeAluno2}`);
-  }
+// {
+//     const alunos = [
+//       {
+//         nome:  lerTeclado.question("Nome do aluno 1: "),
+//         nota1: lerTeclado.questionFloat("Nota 1 do aluno 1: "),
+//         nota2: lerTeclado.questionFloat("Nota 2 do aluno 1: "),
+//         nota3: lerTeclado.questionFloat("Nota 3 do aluno 1: ")
+//       },
+//       {
+//         nome:  lerTeclado.question("Nome do aluno 2: "),
+//         nota1: lerTeclado.questionFloat("Nota 1 do aluno 2: "),
+//         nota2: lerTeclado.questionFloat("Nota 2 do aluno 2: "),
+//         nota3: lerTeclado.questionFloat("Nota 3 do aluno 2: ")
+//       }
+//     ];
+//     const nomeAluno1  = alunos[0].nome;
+//     const nomeAluno2  = alunos[1].nome;
+//     const nota1aluno1 = alunos[0].nota1;
+//     const nota2aluno1 = alunos[0].nota2;
+//     const nota3aluno1 = alunos[0].nota3;
+//     const nota1aluno2 = alunos[1].nota1;
+//     const nota2aluno2 = alunos[1].nota2;
+//     const nota3aluno2 = alunos[1].nota3;
+//     const mediaAluno1 = (nota1aluno1 + nota2aluno1 + nota3aluno1) / 3;
+//     const mediaAluno2 = (nota1aluno2 + nota2aluno2 + nota3aluno2) / 3;
+//     const mediasIguais = mediaAluno1 === mediaAluno2;
+//     console.log(`Media de ${nomeAluno1}: ${mediaAluno1.toFixed(2)}`);
+//     console.log(`Media de ${nomeAluno2}: ${mediaAluno2.toFixed(2)}`);
+//     console.log(`Aluno com maior media: ${mediasIguais ? "Mesma media" : mediaAluno1 > mediaAluno2 ? nomeAluno1 : nomeAluno2}`);
+//     console.log(`Aluno com primeira maior nota:  ${nota1aluno1 > nota1aluno2 ? nomeAluno1 : nota1aluno1 === nota1aluno2 ? "Empate" : nomeAluno2}`);
+//     console.log(`Aluno com segunda maior nota:   ${nota2aluno1 > nota2aluno2 ? nomeAluno1 : nota2aluno1 === nota2aluno2 ? "Empate" : nomeAluno2}`);
+//     console.log(`Aluno com terceira maior nota:  ${nota3aluno1 > nota3aluno2 ? nomeAluno1 : nota3aluno1 === nota3aluno2 ? "Empate" : nomeAluno2}`);
+//   }
 console.log("_______________________________");
