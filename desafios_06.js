@@ -87,23 +87,22 @@ console.log("_______________________________");
 // e) Exiba o resultado usando ternário.
 
 // → Seu código aqui:
-let temperatura = lerTeclado.questionFloat("Qual é a temperatura atual em graus Celsius (Cº)? ");
-let estaEmAmbienteInterno = lerTeclado.keyInYN("Você está em ambiente interno? ");
-let classificacao = temperatura < 10 ? "Muito frio" :
-    temperatura >= 10 && temperatura < 18 ? "Frio" :
-    temperatura >= 18 && temperatura <= 25 ? "Agradável" :
-    temperatura > 25 && temperatura <= 35 ? "Quente" :
-    "Muito quente";
-console.log(`Classificação da temperatura: ${classificacao}`);
-let precisaArCondicionado = temperatura > 28 && estaEmAmbienteInterno;
-console.log(
-    precisaArCondicionado
-    ? "Sim, você precisa de ar condicionado."
-    : temperatura > 28 && !estaEmAmbienteInterno
-        ? "Não, você não precisa de ar condicionado (você já está em ambiente externo)."
-        : "Não, você não precisa de ar condicionado."
-);
-
+// let temperatura = lerTeclado.questionFloat("Qual é a temperatura atual em graus Celsius (Cº)? ");
+// let estaEmAmbienteInterno = lerTeclado.keyInYN("Você está em ambiente interno? ");
+// let classificacao = temperatura < 10 ? "Muito frio" :
+//     temperatura >= 10 && temperatura < 18 ? "Frio" :
+//     temperatura >= 18 && temperatura <= 25 ? "Agradável" :
+//     temperatura > 25 && temperatura <= 35 ? "Quente" :
+//     "Muito quente";
+// console.log(`Classificação da temperatura: ${classificacao}`);
+// let precisaArCondicionado = temperatura > 28 && estaEmAmbienteInterno;
+// console.log(
+//     precisaArCondicionado
+//     ? "Sim, você precisa de ar condicionado."
+//     : temperatura > 28 && !estaEmAmbienteInterno
+//         ? "Não, você não precisa de ar condicionado (você já está em ambiente externo)."
+//         : "Não, você não precisa de ar condicionado."
+// );
 console.log("_______________________________");
 
 
