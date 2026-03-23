@@ -137,6 +137,35 @@ console.log("_______________________________");
 // g) Exiba uma mensagem com template literal resumindo o plano.
 
 // → Seu código aqui:
-
-
+// let usuario = {
+//     nome: lerTeclado.question("Qual é o seu nome? "),
+//     idade: lerTeclado.questionInt("Qual é a sua idade? "),
+//     ehEstudante: lerTeclado.keyInYN("Você é estudante? "),
+//     pagaNoPix: lerTeclado.keyInYN("Você vai pagar no PIX? "),
+//     planoEscolhido: lerTeclado.questionInt("Qual plano você escolhe? (1, 2, 3 ou 4) ")
+// };
+// const valoresPlanos = {
+//     1: 120.00,
+//     2: 150.00,
+//     3: 180.00,
+//     4: 200.00
+// };
+// let valorBase = valoresPlanos[usuario.planoEscolhido] || 0;
+// let descontoEstudante = usuario.ehEstudante && usuario.idade < 25;
+// let descontoIdoso = usuario.idade >= 60;
+// let descontoPix = usuario.pagaNoPix && !descontoEstudante && !descontoIdoso;
+// let percentualDesconto = descontoEstudante ? 10 : descontoIdoso ? 15 : descontoPix ? 5 : 0;
+// let valorFinal = valorBase * (1 - percentualDesconto / 100);
+// let plano = {
+//     nome: usuario.nome,
+//     idade: usuario.idade,
+//     valorBase: valorBase.toFixed(2),
+//     percentualDesconto: percentualDesconto,
+//     valorFinal: valorFinal.toFixed(2)
+// };
+// console.table(plano);
+// console.log(
+//     `Olá, ${plano.nome}! Você escolheu o Plano ${usuario.planoEscolhido} com valor base de R$ ${plano.valorBase}. ` +
+//     `Com um desconto de ${plano.percentualDesconto}%, o valor final do seu plano é R$ ${plano.valorFinal}.`
+// );
 console.log("_______________________________");
