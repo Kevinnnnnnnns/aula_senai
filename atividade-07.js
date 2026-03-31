@@ -270,32 +270,32 @@ console.log("_______________________________");
 // g) Chame o professor para realizar alguns testes 🫡
 
 // → Seu código aqui:
-const numeroA = lerTeclado.questionFloat("Digite o primeiro número: ");
-const numeroB = lerTeclado.questionFloat("Digite o segundo número: ");
-const operacao = lerTeclado. questionInt("Escolha a operação (1 - Soma, 2 - Subtração, 3 - Multiplicação, 4 - Divisão): ");
-let simbolo = "";
-let resultado = "";
-if (operacao === 1) {
-    simbolo = "+";
-    resultado = numeroA + numeroB;
-} else if (operacao === 2) {
-    simbolo = "-";
-    resultado = numeroA - numeroB;
-} else if (operacao === 3) {
-    simbolo = "*";
-    resultado = numeroA * numeroB;
-} else if (operacao === 4) {
-    simbolo = "/";
-    if (numeroB === 0) {
-        console.log("Erro: Divisão por zero não é permitida.");
-        resultado = "Indefinido";
-    } else {
-        resultado = numeroA / numeroB;
-    }
-} else {
-    console.log("Operação inválida. Por favor, escolha um número entre 1 e 4.");
-}
-if (resultado !== "") {
-    console.log(`${numeroA} ${simbolo} ${numeroB} = ${resultado}`);
-}
+// const numeroA = lerTeclado.questionFloat("Digite o primeiro número: ");
+// const numeroB = lerTeclado.questionFloat("Digite o segundo número: ");
+// const operacao = lerTeclado. questionInt("Escolha a operação (1 - Soma, 2 - Subtração, 3 - Multiplicação, 4 - Divisão): ");
+// let simbolo = "";
+// let resultado = "";
+// if (operacao === 1) {
+//     simbolo = "+";
+//     resultado = numeroA + numeroB;
+// } else if (operacao === 2) {
+//     simbolo = "-";
+//     resultado = numeroA - numeroB;
+// } else if (operacao === 3) {
+//     simbolo = "*";
+//     resultado = numeroA * numeroB;
+// } else if (operacao === 4) {
+//     simbolo = "/";
+//     if (numeroB === 0) {
+//         console.log("Erro: Divisão por zero não é permitida.");
+//         resultado = "Indefinido";
+//     } else {
+//         resultado = numeroA / numeroB;
+//     }
+// } else {
+//     console.log("Operação inválida. Por favor, escolha um número entre 1 e 4.");
+// }
+// if (resultado !== "") {
+//     console.log(`${numeroA} ${simbolo} ${numeroB} = ${resultado}`);
+// }
 console.log("_______________________________");
