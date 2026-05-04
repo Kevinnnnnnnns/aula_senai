@@ -18,8 +18,6 @@ while (n <= 7) {
     n++;
 }
 console.log("Fim da contagem!");
-
-
 console.log("_______________________________");
 
 
@@ -37,8 +35,6 @@ while (regressiva >= 1) {
     regressiva--;
 }
 console.log("Lançamento ON!");
-
-
 console.log("_______________________________");
 
 
@@ -56,8 +52,6 @@ while (numero3 < 1 || numero3 > 5) {
     numero3 = readline.questionInt("Digite um numero entre 1 e 5: ");
 }
 console.log(`Você escolheu: ${numero3}`);
-
-
 console.log("_______________________________");
 
 
@@ -84,8 +78,6 @@ while (numero4 !== 0) {
 console.log(`Soma: ${soma}`);
 console.log(`Quantidade de numeros digitados: ${quantidade}`);
 console.log(`Numeros digitados: ${numerosDigitados.join(", ")}`);
-
-
 console.log("_______________________________");
 
 
@@ -117,8 +109,6 @@ if (qtdNotas > 0) {
 } else {
     console.log("Nenhuma nota valida foi digitada.");
 }
-
-
 console.log("_______________________________");
 
 
@@ -154,8 +144,6 @@ do {
             console.log("Opcao invalida.");
     }
 } while (opcao !== 0);
-
-
 console.log("_______________________________");
 
 
@@ -189,8 +177,6 @@ while (palpite !== secreto) {
         console.log(`${nome} acertou apos ${tentativas} tentativa(s)! O numero era ${secreto}.`);
     }
 }
-
-
 console.log("_______________________________");
 
 
@@ -208,8 +194,6 @@ while (i <= 10) {
     console.log(`${numTabuada} x ${i} = ${numTabuada * i}`);
     i++;
 }
-
-
 console.log("_______________________________");
 
 
@@ -231,7 +215,7 @@ let rodada = 0;
 while (saldo > 0 && rodada < 10) {
     rodada++;
     let saque = Math.floor(Math.random() * (200 - 50 + 1)) + 50;
-    
+
     if (saque > saldo) {
         console.log("Saldo insuficiente. Fim!");
         break;
@@ -242,8 +226,6 @@ while (saldo > 0 && rodada < 10) {
 }
 console.log(`Saldo restante: R$ ${saldo}`);
 console.log(`Total de rodadas: ${rodada}`);
-
-
 console.log("_______________________________");
 
 
@@ -272,6 +254,4 @@ do {
 
 console.table(contatos);
 console.log(`Total de contatos cadastrados: ${contatos.length}`);
-
-
 console.log("_______________________________");
